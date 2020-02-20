@@ -1,0 +1,11 @@
+{
+    "name": "MDL Netflix Sync",
+    "version": "1.0",
+    "description": "Synchronize your MyDramaList watchlist with Netflix view progress.",
+    "permissions": ["declarativeContent", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+}
